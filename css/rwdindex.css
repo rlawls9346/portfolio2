@@ -1,0 +1,135 @@
+@media screen and (max-width:1220px) {
+
+
+    .article1 .slide_group .slide1 .img {
+        height: 450px;
+        background: url(../img/slider1.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .article1 .slide_group .slide2 .img {
+        height: 450px;
+        background: url(../img/slider2.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .article1 .slide_group .slide3 .img {
+        height: 450px;
+        background: url(../img/slider3.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .article1 .slide_group .slide .slidetext { width: 1200px;
+        position: absolute; top: 50%; left: -100px; transform: translate(0,-50%); 
+        margin-left: 50px; text-align: left;
+    }
+    
+
+    /* .article1 .slide_group .slide .slidetext { width: 1200px;
+        position: absolute; top: 50%; left: 50%; transform: translate(-58%,-50%); 
+        padding: 0 200px; text-align: left;
+    } */
+    
+.article1 .slide_group .slide .slidetext h2 { font-size: 44px; font-weight: bold;}
+.article1 .slide_group .slide .slidetext h3 { font-size: 44px;}
+.article1 .slide_group .slide .slidetext p { font-size: 14px; margin-top: 20px;}
+.article1 .slide_group .slide .slidetext a { font-size: 13px; border: 2px solid ;
+padding: 10px 25px; margin-top: 30px; display:inline-block; transition: all 0.5s;}
+
+.article1 .slide_group .slick-arrow {
+    position:absolute; 
+    top:50%; transform:translateY(-50%);
+    border:none; z-index:9999; background: none;
+    font-size:50px;
+    color:#000; 
+    transition: all 0.5s; text-align: left; padding-left: 15px;
+    opacity: 0; outline:none;
+}
+.article1 .slide_group .prev { left:25px }
+.article1 .slide_group .next { right:25px }
+
+.article2 ul li {float: left; width: 50%; padding: 20px;}
+.article2 ul li img {width: 25%; margin: 30px; margin-top: 0px; }
+
+
+.article2 ul li a {  padding: 7px 16px; transition: all 0.5s; color: #fff;
+     border: 1px solid #fff; z-index: 99; display: inline-block; margin-bottom: 45px;
+    }
+
+
+    .article3 .txt p:nth-child(1) { font-size: 19px;}
+    .article3 .txt p:nth-child(2) { font-size: 30px; font-weight: bold; padding: 5px 0 30px;}
+    .article3 .txt p:nth-child(3) { font-size: 14px;}
+
+    .article4 ul li {float: left; width: 50%; height: 300px;}
+
+
+
+
+}/* //지우지마삼  */
+
+
+
+
+@media screen and (max-width:700px) {
+
+    .article1 .slide_group .slide1 .img {
+        height: 400px;
+        background: url(../img/slider1.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .article1 .slide_group .slide2 .img {
+        height: 400px;
+        background: url(../img/slider2.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .article1 .slide_group .slide3 .img {
+        height: 400px;
+        background: url(../img/slider3.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .article1 .slide_group .slide .slidetext { width: 1200px;
+        position: absolute; top: 30px; left: -110px; transform: translate(0,0); 
+        margin-left: 0px; text-align: left;
+    }
+    .article1 .slide_group .slide .slidetext h2 { font-size: 34px; font-weight: bold;}
+.article1 .slide_group .slide .slidetext h3 { font-size: 34px;}
+.article1 .slide_group .slide .slidetext p { font-size: 14px; margin-top: 20px;}
+.article1 .slide_group .slide .slidetext a { font-size: 13px; border: 2px solid ;
+padding: 10px 25px; margin-top: 30px; display:inline-block; transition: all 0.5s;}
+
+.article1 .slide_group .slick-arrow {
+    position:absolute; 
+    top:50%; transform:translateY(-50%);
+    border:none; z-index:9999; background: none;
+    font-size:50px;
+    color:rgb(0,0,0,0); 
+    transition: all 0.5s; text-align: left; padding-left: 15px;
+    opacity: 0; outline:none; 
+}
+
+
+.article2 ul li {float: left; width: 50%; padding: 20px;}
+.article2 ul li img {width: 70%; margin: 30px; margin-top: 0px; }
+
+.article3 .row .txt { position: absolute; top: 30px;  
+left: 50%; transform: translate(-50%); text-align: center;}
+
+.article3 .txt p:nth-child(1) { font-size: 19px;}
+.article3 .txt p:nth-child(2) { font-size: 30px; font-weight: bold; padding: 5px 0 30px;}
+.article3 .txt p:nth-child(3) { font-size: 14px;}
+.article3 .row a { position: absolute; border: 1px solid #333;
+    padding: 20px 20px; left: 50%; transform: translate(-50%); top: 140px;
+    right: 0px; transition: all 0.5s; border-radius: 3px; margin-top: 30px;}
+
+.article4 ul li {float: left; width: 50%; height: auto;}
+
+
+
+
+
+
+
+
+
+}/* //지우지마삼  */
+

@@ -1,0 +1,25 @@
+
+@media screen and (max-width:1024px) {
+
+    .noticeBox table col:nth-child(1) { width: 8%;}
+.noticeBox table col:nth-child(2) { width: auto;}
+.noticeBox table col:nth-child(3) { width: 13%;}
+.noticeBox table col:nth-child(4) { width: 13%; display: none;}
+.noticeBox table col:nth-child(5) { width: 8%; display: none;}
+.noticeBox table thead th:nth-child(4), .noticeBox table thead th:nth-child(5) { display: none;}
+.noticeBox table tbody td:nth-child(4), .noticeBox table tbody td:nth-child(5) { display: none;}
+    
+}
+
+@media screen and (max-width:500px) {
+
+
+    .noticeBox table col:nth-child(1) { width: 8%; display: none;}
+    .noticeBox table col:nth-child(2) { width: auto;}
+    .noticeBox table col:nth-child(3) { width: 13%; display: none;}
+    .noticeBox table col:nth-child(4) { width: 13%; display: none;}
+    .noticeBox table col:nth-child(5) { width: 8%; display: none;}
+    .noticeBox table thead th:nth-child(4), .noticeBox table thead th:nth-child(5) { display: none;}
+    .noticeBox table tbody td:nth-child(1), .noticeBox table tbody td:nth-child(3) { display: none;}
+        
+}

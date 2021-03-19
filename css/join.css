@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+legend { display: none;}
+.depth2 { display: none;}
+
+#section .joinimg { height: 260px; background: url(../img/slider1.jpg) no-repeat top;
+background-size: cover; position: relative;}
+#section .joinimg > div { position: absolute; top: 50%; left: 50%;
+transform: translate(-50%, -50%); color: #333; }
+#section .joinimg h2 {  font-size: 40px; padding-bottom: 10px; font-weight: bold;}
+#section .joinimg p {font-weight: bold;}
+
+
+
+#section .step { position: relative; margin: 50px auto;}
+#section .step .table { border: 1px solid #ddd; height: 50px; line-height: 50px;
+color: #666; font-size: 14px; font-weight: bold;}
+#section .step .table td:nth-child(1) { background: #666; color: #fff;}
+#section .step .table td:nth-child(2) { border-right: solid 1px #ddd;}
+
+
+#section .joinbox h3 { color: #333; text-align: left; padding-bottom: 5px;}
+#section .joinbox .agree { background: #eee; border: 1px solid #ddd; }
+#section .joinbox .agree > div { background: #fbfbfb; height: 200px;
+    overflow-y: auto; line-height: 3; padding: 10px; font-size: 13px;
+    margin-bottom: 10px; color: #666;
+}
+#section .joinbox p { text-align: left; padding: 20px 0 70px 0;}
+
+/* 
+.button { height: 40px; width: 110px; color: #fff; background: #222; border-radius: 5px;
+margin-bottom: 50px;} */
+
+.gotonext { padding: 10px ; color: #fff; background: #222; border-radius: 5px;
+     display: inline-block; margin-bottom: 50px;}
+
+     .line { width: 100%; border-top: 1px solid #eee;}

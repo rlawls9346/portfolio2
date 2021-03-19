@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+legend { display: none;}
+
+.loginBox h2 { font-size:30px; padding:40px 0 }
+
+
+#section .joinimg { height: 260px; background: url(../img/slider1.jpg) no-repeat top;
+background-size: cover; position: relative;}
+#section .joinimg > div { position: absolute; top: 50%; left: 50%;
+transform: translate(-50%, -50%); color: #333; }
+#section .joinimg h2 {  font-size: 40px; padding-bottom: 10px; font-weight: bold; }
+#section .joinimg p {font-weight: bold;}
+
+.loginBox { padding-top:40px; padding-bottom:80px }
+.loginBox h2 { font-size:30px; padding:40px 0 }
+.loginBox > p { font-size: 14px; color: #666;}
+.loginBox .outer {
+    border: 1px solid #ddd; margin: 20px 0; padding: 67px 0;
+   
+}
+
+
+.loginBox .outer {
+    border: 1px solid #ddd; margin: 20px 0; padding: 67px 0 ;
+   
+}
+
+.loginBox .outer div { display: inline-block; vertical-align: middle;}
+.loginBox .outer label { display: inline-block; width: 70px; text-align: left;
+vertical-align: middle;}
+
+.loginBox .outer p { margin: 10px 0;}
+.loginBox .outer input { 
+    width: 200px; height: 35px; vertical-align: middle; text-indent: 1em;
+}
+
+.loginBox .outer button { width: 100px; height: 80px; vertical-align: middle;
+background: #333; color: #fff; font-size: 20px; border: none;
+border-radius: 5px; transition: all 0.5s;}
+
+.loginBox .outer button:hover { background: #666;}
+

@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+legend { display: none;}
+
+
+#section .joinimg { height: 260px; background: url(../img/slider1.jpg) no-repeat top;
+background-size: cover; position: relative;}
+#section .joinimg > div { position: absolute; top: 50%; left: 50%;
+transform: translate(-50%, -50%); color: #333; }
+#section .joinimg h2 {  font-size: 40px; padding-bottom: 10px; font-weight: bold; }
+#section .joinimg p {font-weight: bold;}
+
+#section .step { position: relative; margin: 50px auto;}
+#section .step .table { border: 1px solid #ddd; height: 50px; line-height: 50px;
+color: #666; font-size: 14px; font-weight: bold;}
+#section .step .table td:nth-child(2) { background: #666; color: #fff;}
+
+.joinBox { padding-top:80px; padding-bottom:80px }
+.joinBox h3 { font-size:18px; padding:20px 0 ;  text-align: left;}
+
+
+.joinBox .btn { text-align:center }
+.joinBox .btn button { width:100px; height:40px;  
+    border:none; background:rosybrown; 
+    margin:30px 10px; border-radius:8px;  
+    color:#fff; font-size:20px; 
+    cursor:pointer;
+}
+.joinBox .btn button[type='submit'] {
+    background:#000
+}
+
+.joinBox table { margin-bottom:30px ; font-size: 13px; color: #333;}
+.joinBox col:nth-child(1) {
+    width:20%; background:#f7f7f7 }
+.joinBox col:nth-child(2) {
+    width:80%; }
+.joinBox th,
+.joinBox td { border-bottom:1px solid #ddd;
+    padding:10px; text-align:left; 
+    vertical-align:middle;
+}    
+.joinBox th { text-align: center;}
+.joinBox .bd th , .joinBox .bd td { border-top: 1px solid #000;}
+
+.joinBox #memo { width: 200px; height: 40px;} 
+
+.joinBox input[type='text'],
+.joinBox input[type='password'],
+.joinBox select { height:22px; border:1px solid #ddd; 
+    text-indent:1em; vertical-align:middle; }   
+.joinBox select { text-indent:0em; }       
+.joinBox textarea { 
+    width:80%; height:100px; 
+    border:1px solid #ddd; 
+    padding:10px; 
+}
+.joinBox #idbox,
+.joinBox #pwbox,
+.joinBox #irum,
+.joinBox #emailid,
+.joinBox #emaildomain { width:120px }
+.joinBox #zipcode,
+.joinBox #hp1,
+.joinBox #hp2,
+.joinBox #birth { width:90px }
+.joinBox #addr1 { width: 80px;}
+.joinBox #addr2,
+.joinBox #addr3 { width:35%}
+.joinBox #zipcode + button { height:30px; vertical-align:middle  }
+.joinBox td label { margin-right:10px  }
+
+
+.joinBox .table2 { border-top: 1px solid #000;}
+
+footer { border-top: 1px solid #ddd; }

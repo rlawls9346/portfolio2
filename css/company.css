@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#section .brdtxt {text-align: center; font-weight: bold; padding: 80px;}
+#section .brdtxt h3 { font-size: 40px; color: #333; padding-bottom: 50px; font-weight: bold;}
+#section .brdtxt p { color: #666;}
+
+#section .ceotxt { text-align: left; padding-top: 40px; font-weight: bold; position: relative;
+ padding-bottom: 120px;}
+#section .ceotxt h4 { font-size: 22px; color: #333; padding-bottom: 25px; font-weight: bold;}
+#section .ceotxt h4 span { color: #947043; }
+#section .ceotxt p { color: #666; line-height: 1.5; font-size: 15px; padding-bottom: 5px;}
+#section .ceotxt strong { position: absolute; right: 0; padding-top: 40px;}
+#section .ceotxt strong span { font-size: 22px; font-weight: bold;}
+
+#section .tbbox p { text-align: left; font-size: 22px; color: #333; font-weight: bold; padding-bottom: 20px;}
+#section .tbbox table { border-top: 1px solid #999; margin-bottom: 50px; color: #666;}
+
+#section .tbbox table tr { padding: 20px; border-bottom: solid 1px #ddd;}
+#section .tbbox table tr th { background: #eee; padding: 20px;}
+#section .tbbox table tr td { text-align: left; padding-left: 30px;}
+
+
+
+
+
+
+

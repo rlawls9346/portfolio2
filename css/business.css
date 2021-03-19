@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+#section .brdtxt {text-align: center; font-weight: bold; padding: 80px;}
+#section .brdtxt h3 { font-size: 40px; color: #333; padding-bottom: 50px; font-weight: bold;}
+#section .brdtxt p { color: #666;}
+
+#section .txt p:nth-child(1) { font-size: 22px; color: #947043; font-weight: bold;}
+#section .txt p:nth-child(2) { font-size: 16px; color: #666; font-weight: bold; 
+    line-height: 1.5; padding: 28px 0;}
+
+
+#section .imgbox div { float: left; width: 33%; }
+#section .imgbox div h4 { font-size: 20px; color: #333; font-weight: bold;
+    text-align: left; padding: 20px 0 40px; }
+#section .imgbox div p { color: #666; text-align: left; padding-bottom: 50px;
+ line-height: 1.2;}
